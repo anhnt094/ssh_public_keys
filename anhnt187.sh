@@ -1,6 +1,6 @@
 #!/bin/bash
 user="anhnt187"
-pub_key="ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAQEAkunzhY7MkuC1cw/4LF0ayTZvf4DeWRMi2Cxt8PBlo1s8FycPUIQi33Db4J+/Ur2P9wcQHrKvCX9lZJuQLRmogCqgRXvwkhjDPXUa3kB//+nsK90l4hszJxvwGFBawbSguGu25ob0H7g+McUWljjg/q1VBciLzjoM7rZfDq/B0SQaTrUhLgBiikDCm9NpqLpFs+pbPMbCmy2dsGrKxl4Nbt8g0tZMKpq2z3G22xTiDIq9XE16rcAY5t7l+kbxTwylaQaduST8lZXfKrlvhCxGZ7/tfaFHgec3r12I6v43kXmEwl0W/Z8c1G41cpaPQ05RGGZnkU/IPzjVJZYWWL1f0w== anhnt187"
+pub_key="ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAQEAolBGbHDX/BrH57FuCRgAqC2OzNKXJk2s9erRCMYDtXXKmZzck5x8Q/yv/2n9/Sg9hVF7LFMutVgsQ/HmfQu8XopVjXSbyNRSy3xNaqdXUypAhFZXGPd9EGKaiafM78jjkfjSLNY0p3K6MUGvH7PAHX0Gq/SjEtAdAOtz3CLCuhpLBqWfSw7FwO2dKsQAiEncR1Dc2PdHjxKv83Frof3DugLbhtUtpv4mQEvHlrkU4/TwxgH8H7evPd1+lyiwJ5MTH8z2VsHq1dGlZw6LhTIujhcy9E7tx6ywwRXFkPLmuwNKh/5aMqNQIoKedVJk6MjJjN4yVpzv0lESeJ8CMpZUUw== anhnt187@fpt.com.vn"
 useradd $user
 echo "$user ALL=(ALL) NOPASSWD: ALL" >> /etc/sudoers
 mkdir /home/$user/.ssh
